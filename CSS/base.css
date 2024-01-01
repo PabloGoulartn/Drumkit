@@ -46,3 +46,36 @@ body{
     border-color: white;
     cursor: pointer;
 }
+
+@media (max-width: 1300px) {
+    .button-section{
+        width: 90%;
+    }    
+}
+
+@media (max-width: 1050px) {
+    .button-section{
+        width: 90%;
+        flex-wrap: wrap;
+    }    
+
+    .btn{
+        margin: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .page-title{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content{
+        flex-wrap: nowrap;
+    }
+
+    .btn{
+        width: 70px;
+        height: 70px;
+    }
+}
